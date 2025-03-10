@@ -1,0 +1,46 @@
+*#rootResources {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    color: #080202;
+    background-color: #9999fa;
+    opacity: 0.9;
+  } 
+
+  .h2Resources  {
+    font-family: "Bell MT", cursive;
+    line-height: 20%;  
+  }
+  
+  .textResources  {
+    padding-right: 1.5rem;
+    padding-left: 2.5rem;
+    text-align: left;
+    margin: 0 auto;
+    word-wrap: break-word;
+  }
+
+  @media screen and (min-width: 800px) {
+    .textResources  {
+      margin-left: 452px;
+      margin-right: 452px;
+    }
+}
+.picResources {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 80px;
+  padding: .5em;
+  will-change: filter;
+  transition: filter 300ms;
+  max-width: 100%;
+  max-height: 100%;
+  }
+.footerResources  {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: rgb(118, 130, 170);
+    padding: 40px 30px;
+  }

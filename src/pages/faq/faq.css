@@ -1,0 +1,38 @@
+#rootFaq {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    color: #080202;
+    background-color: #9999fa;
+    opacity: 0.9; 
+  }
+
+  .h2Faq {
+    font-family: "Bell MT", cursive;
+    line-height: 130%;  
+  }
+
+  
+  .textFaq {
+    
+    padding: 1rem;
+    text-align: left;
+    margin: 0 auto;
+    
+  }
+
+  @media screen and (min-width: 800px) {
+    .textFaq  {
+      margin-left: 370px;
+      margin-right: 370px;
+    }
+}
+
+
+.footerFaq {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  background-color: rgb(118, 130, 170);
+  padding: 40px 30px;
+}
