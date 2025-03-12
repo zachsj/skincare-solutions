@@ -1,5 +1,5 @@
 import './home.css'
-import BaseLayout from '../../components/layout/BaseLayout'
+import { BaseLayout } from '../../components'
 import { Helmet } from 'react-helmet';
 import { TwitterShareButton } from 'next-share'
 import { FacebookIcon, FacebookShareButton, TwitterIcon } from 'react-share'

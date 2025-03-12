@@ -33,12 +33,12 @@ export const Resources = (): JSX.Element => {
           <p className="text"> <b>
             Brands Spotlight:</b></p>
 
-          <ul style={{ listStyleType: "disc" }} className="textResources">
+          <ul style={{ listStyleType: "disc" }} className="listResources">
 
             <li>
               Ulta Beauty's Official Website
               <p>
-                <a className="linksResources" href="https://www.ulta.com/" target="_blank">
+                <a className="links" href="https://www.ulta.com/" target="_blank">
                   https://www.ulta.com/
                 </a>
               </p>
@@ -47,7 +47,7 @@ export const Resources = (): JSX.Element => {
             <li>
               Clinique partners with Icahn School of Medicine at Mount Sinai to establish the Mount Sinai-Clinique Healthy Skin Dermatology Center
               <p>
-                <a className="linksResources" href="https://www.eurekalert.org/news-releases/1033012" target="_blank">
+                <a className="links" href="https://www.eurekalert.org/news-releases/1033012" target="_blank">
                   https://www.eurekalert.org/news-releases/1033012
                 </a>
               </p>
@@ -56,7 +56,7 @@ export const Resources = (): JSX.Element => {
             <li>
               Clinique’s Philosophy
               <p>
-                <a className="linksResources" href="https://www.clinique.com/our-philosophy?_gl=1*1rm27ws*_up*MQ..&gclid=1b4d649e2b041f77b4f60311e4dcc062&gclsrc=3p.ds" target="_blank">
+                <a className="links" href="https://www.clinique.com/our-philosophy?_gl=1*1rm27ws*_up*MQ..&gclid=1b4d649e2b041f77b4f60311e4dcc062&gclsrc=3p.ds" target="_blank">
                   https://www.clinique.com/our-philosophy?_gl=1*1rm27ws*_up*MQ..&gclid=1b4d649e2b041f77b4f60311e4dcc062&gclsrc=3p.ds
                 </a>
               </p>
@@ -70,13 +70,13 @@ export const Resources = (): JSX.Element => {
           <p className="text"> <b>
             Advice from Dermatologists:</b>
           </p>
-          <ul style={{ listStyleType: "disc" }} className="textResources">
+          <ul style={{ listStyleType: "disc" }} className="listResources">
 
 
             <li >
               7 Derm-Approved Tips to Make Life With Sensitive Skin a Little Bit Easier
               <p>
-                <a className="linksResources" href="https://www.self.com/story/sensitive-skin-care-tips" target="_blank">
+                <a className="links" href="https://www.self.com/story/sensitive-skin-care-tips" target="_blank">
                   https://www.self.com/story/sensitive-skin-care-tips
                 </a>
               </p>
@@ -87,7 +87,7 @@ export const Resources = (): JSX.Element => {
             <li>
               Dermatologist-recommended skin care routines and tips for different skin types
               <p>
-                <a className="linksResources" href="https://www.medicalnewstoday.com/articles/dermatologist-recommended-skin-care#summary" target="_blank">
+                <a className="links" href="https://www.medicalnewstoday.com/articles/dermatologist-recommended-skin-care#summary" target="_blank">
                   https://www.medicalnewstoday.com/articles/dermatologist-recommended-skin-care#summary
                 </a>
               </p>
@@ -97,7 +97,7 @@ export const Resources = (): JSX.Element => {
             <li>
               Seven Dermatologists' Skin Care Tips That Can Relieve Symptoms of Atopic Dermatitis: A Guide for Patients
               <p>
-                <a className="linksResources" href="https://www.medpagetoday.com/reading-room/aad/atopic-dermatitis/110562" target="_blank">
+                <a className="links" href="https://www.medpagetoday.com/reading-room/aad/atopic-dermatitis/110562" target="_blank">
                   https://www.medpagetoday.com/reading-room/aad/atopic-dermatitis/110562
                 </a>
               </p>
@@ -106,7 +106,7 @@ export const Resources = (): JSX.Element => {
             <li>
               How Hard Water Affects Your Hair and Skin—and What to Do About It
               <p>
-                <a className="linksResources" href="https://www.gq.com/story/hard-water-hair-skin" target="_blank">
+                <a className="links" href="https://www.gq.com/story/hard-water-hair-skin" target="_blank">
                   https://www.gq.com/story/hard-water-hair-skin
                 </a>
               </p>
@@ -115,7 +115,7 @@ export const Resources = (): JSX.Element => {
             <li>
               20 Common Questions About Sensitive Skin
               <p>
-                <a className="linksResources" href="https://www.webmd.com/beauty/sensitive-skin-20-questions" target="_blank">
+                <a className="links" href="https://www.webmd.com/beauty/sensitive-skin-20-questions" target="_blank">
                   https://www.webmd.com/beauty/sensitive-skin-20-questions
                 </a>
               </p>
@@ -124,7 +124,7 @@ export const Resources = (): JSX.Element => {
             <li>
               Skin Care Tips for Men
               <p>
-                <a className="linksResources" href="https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-for-men" target="_blank">
+                <a className="links" href="https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-for-men" target="_blank">
                   https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-for-men
                 </a>
               </p>
@@ -133,7 +133,7 @@ export const Resources = (): JSX.Element => {
             <li>
               Your Winter Skin Survival Kit
               <p>
-                <a className="linksResources" href="https://www.aad.org/public/everyday-care/skin-care-basics/care/winter-skin-survival-kit" target="_blank">
+                <a className="links" href="https://www.aad.org/public/everyday-care/skin-care-basics/care/winter-skin-survival-kit" target="_blank">
                   https://www.aad.org/public/everyday-care/skin-care-basics/care/winter-skin-survival-kit
                 </a>
               </p>
@@ -142,7 +142,7 @@ export const Resources = (): JSX.Element => {
             <li>
               4 Skin Care Tips for your Hands
               <p>
-                <a className="linksResources" href="https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-tips-hands" target="_blank">
+                <a className="links" href="https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-tips-hands" target="_blank">
                   https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-tips-hands
                 </a>
               </p>
@@ -152,12 +152,12 @@ export const Resources = (): JSX.Element => {
           <p className="text"> <b>
             Recommended Sites:</b></p>
 
-          <ul style={{ listStyleType: "disc" }} className="textResources">
+          <ul style={{ listStyleType: "disc" }} className="listResources">
 
             <li>
               The Polished Hippy
               <p>
-                <a className="linksResources" href="https://www.thepolishedhippy.com/" target="_blank">
+                <a className="links" href="https://www.thepolishedhippy.com/" target="_blank">
                   https://www.thepolishedhippy.com/
                 </a>
               </p>
@@ -166,7 +166,7 @@ export const Resources = (): JSX.Element => {
             <li>
               Citrine's Blog - Lip gloss, lipstick and all that good stuff...
               <p>
-                <a className="linksResources" href="https://wieniawski.blogspot.com/" target="_blank">
+                <a className="links" href="https://wieniawski.blogspot.com/" target="_blank">
                   https://wieniawski.blogspot.com/
                 </a>
               </p>
@@ -175,7 +175,7 @@ export const Resources = (): JSX.Element => {
             <li>
               Glamoury
               <p>
-                <a className="linksResources" href="https://glamoury.com/" target="_blank">
+                <a className="links" href="https://glamoury.com/" target="_blank">
                   https://glamoury.com/
                 </a>
               </p>
@@ -184,7 +184,7 @@ export const Resources = (): JSX.Element => {
             <li>
               A Touch of Blusher - Makeup, Skincare, Fragrance, and a Bit of Fashion
               <p>
-                <a className="linksResources" href="https://www.atouchofblusher.com/" target="_blank">
+                <a className="links" href="https://www.atouchofblusher.com/" target="_blank">
                   https://www.atouchofblusher.com/
                 </a>
               </p>
@@ -193,7 +193,7 @@ export const Resources = (): JSX.Element => {
             <li>
               The Small Things Blog
               <p>
-                <a className="linksResources" href="https://www.thesmallthingsblog.com/" target="_blank">
+                <a className="links" href="https://www.thesmallthingsblog.com/" target="_blank">
                   https://www.thesmallthingsblog.com/
                 </a>
               </p>

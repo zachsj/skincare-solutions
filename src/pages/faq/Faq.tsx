@@ -20,10 +20,8 @@ export const Faq = (): JSX.Element => {
       <BaseLayout>
         <main>
           <h2 className="h2Faq"> Skincare FAQ's</h2>
-          <br></br>
-          <br></br>
 
-          <p className="textFaq">
+          <p className="text">
             <p>Sensitive skin requires extra care and attention, but finding the right routine doesn’t have to be overwhelming.
               Whether you're dealing with irritation, dryness, or just need some guidance on products to suit your skin,
               we're here to help. On this page we've answered some of the most common questions about sensitive skin,

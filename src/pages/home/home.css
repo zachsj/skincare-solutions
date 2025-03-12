@@ -1,45 +1,13 @@
-*#root {
-  max-width: 100%;
-  margin: 0 auto;
-  
-  text-align: center;
-  color: #080202;
-  background-color: #878de8;
-  opacity: 0.9; 
-} 
-
 .h1 {
   font-family: "Bell MT", cursive;
-  line-height: 20%;  
+  font-weight: bold;
+  line-height: 20%;
 }
 
 @media screen and (min-width: 800px) {
-.h1 {
-  font-family: "Bell MT", cursive;
-  line-height: 20%; 
-  margin-left: 170px
-}
-}
-
-.text {
-  padding: 1rem;
-  text-align: left;
-  margin: 0 auto
-}
-
-@media screen and (min-width: 800px) {
-  .text {
-    margin-left: 370px;
-    margin-right: 370px;
+  .h1 {
+    margin-left: 170px
   }
-}
-
-.links {
-  color: #dadce6;
-  text-decoration: none;
-  transition: color 300ms;
-  text-decoration: underline;
-  font-style: italic;
 }
 
 .pic {
@@ -56,30 +24,28 @@
 
 @media screen and (min-width: 800px) {
   .picLogo {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 80px;
-  padding: .5em;
-  will-change: filter;
-  transition: filter 300ms;
-  max-width: 100%;
-  max-height: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 80px;
+    padding: .5em;
+    will-change: filter;
+    transition: filter 300ms;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 
 @media screen and (max-width: 400px) {
   .picLogo {
-  width: 90px;
-  height: 90px;
-  object-fit: cover;
-  border-radius: 70px;
-  padding: .5em;
-  will-change: filter;
-  transition: filter 300ms;
-  max-width: 100%;
-  max-height: 100%;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 70px;
+    padding: .5em;
+    will-change: filter;
+    transition: filter 300ms;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
-
-
